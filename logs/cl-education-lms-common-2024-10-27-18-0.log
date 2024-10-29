@@ -1,0 +1,2 @@
+2024-10-27 18:55:30.191 c.cleducate.service.EmailServiceImpl.lambda$sendEmail$0 - MAIL SENT SUCCESSFULLY TO EMAIL_ID :: intkhabkhanofficial@gmail.com , EMAIL_SUBJECT :: New User Enrollment: A user has been enrolled in a course., TEMPLATE_NAME :: sendEmailToAdminOnClientCourseEnrollment
+2024-10-27 18:55:30.337 c.cleducate.service.EmailServiceImpl.lambda$sendEmail$0 - MAIL SENT SUCCESSFULLY TO EMAIL_ID :: priya.patel@yopmail.com , EMAIL_SUBJECT :: Welcome! You have been enrolled in a new course., TEMPLATE_NAME :: sendEmailOnClientCourseEnrollment

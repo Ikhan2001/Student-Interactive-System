@@ -1,0 +1,1 @@
+2024-10-27 02:35:46.310 c.cleducate.service.EmailServiceImpl.lambda$sendEmail$0 - MAIL SENT SUCCESSFULLY TO EMAIL_ID :: priya.patel@yopmail.com , EMAIL_SUBJECT :: Important: Your Account Has Been Locked Due to Multiple Password Reset Attempts, TEMPLATE_NAME :: sendEmailOnAccountBlock

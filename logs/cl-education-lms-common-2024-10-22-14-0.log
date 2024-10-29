@@ -1,0 +1,40 @@
+2024-10-22 14:29:52.730 o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-22 14:29:52.738 com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2024-10-22 14:29:52.746 com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+2024-10-22 14:30:39.048 o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 6.2.5.Final
+2024-10-22 14:30:39.071 com.cleducate.ClEducateApplication.logStarting - Starting ClEducateApplication using Java 1.8.0_411 on INTKHAB-KHAN with PID 18560 (D:\I K\SprinBootPractice\studentInteractiveSystem\target\classes started by AMY4632V in D:\I K\SprinBootPractice\studentInteractiveSystem)
+2024-10-22 14:30:39.073 com.cleducate.ClEducateApplication.logStartupProfileInfo - The following 1 profile is active: "local"
+2024-10-22 14:30:40.536 o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-22 14:30:40.617 o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 70 ms. Found 8 JPA repository interfaces.
+2024-10-22 14:30:41.353 o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2024-10-22 14:30:41.362 o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8081"]
+2024-10-22 14:30:41.363 o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2024-10-22 14:30:41.363 o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2024-10-22 14:30:44.615 o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2024-10-22 14:30:44.616 o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 5493 ms
+2024-10-22 14:30:44.757 o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-22 14:30:44.820 org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-10-22 14:30:44.997 o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-22 14:30:45.088 com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+2024-10-22 14:30:45.549 com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2024-10-22 14:30:45.627 org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2024-10-22 14:30:47.194 o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-22 14:30:47.207 o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-22 14:30:49.810 o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4d79d187, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e63bd6b, org.springframework.security.web.context.SecurityContextPersistenceFilter@1aaaabd1, org.springframework.web.filter.CorsFilter@48144f1a, org.springframework.security.web.authentication.logout.LogoutFilter@2059f785, com.cleducate.security.JwtTokenFilter@145fe8ab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40b70f31, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@559c4e06, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6f7b8ae1, org.springframework.security.web.session.SessionManagementFilter@7bc8ffbc, org.springframework.security.web.access.ExceptionTranslationFilter@79e90571, org.springframework.security.web.access.intercept.AuthorizationFilter@24842b8e]
+2024-10-22 14:30:49.826 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/swagger-resources/**']
+2024-10-22 14:30:49.827 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/swagger-ui/**']
+2024-10-22 14:30:49.828 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/v3/api-docs/**']
+2024-10-22 14:30:49.828 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/configuration/**']
+2024-10-22 14:30:49.828 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/v3/api-docs/swagger-config']
+2024-10-22 14:30:49.829 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/webjars/**']
+2024-10-22 14:30:49.830 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/public']
+2024-10-22 14:30:49.831 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/h2-console/**/**']
+2024-10-22 14:30:50.239 o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8081"]
+2024-10-22 14:30:50.264 o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2024-10-22 14:30:50.274 com.cleducate.ClEducateApplication.logStarted - Started ClEducateApplication in 11.678 seconds (JVM running for 12.167)
+2024-10-22 14:32:24.546 o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-22 14:32:24.546 o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2024-10-22 14:32:24.547 o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+2024-10-22 14:32:25.273 o.s.api.AbstractOpenApiResource.getOpenApi - Init duration for springdoc-openapi is: 341 ms
+2024-10-22 14:34:51.343 c.cleducate.service.EmailServiceImpl.lambda$sendEmail$0 - MAIL SENT SUCCESSFULLY TO EMAIL_ID :: intkhabkhanofficial@gmail.com , EMAIL_SUBJECT :: New User Enrollment: A user has been enrolled in a course., TEMPLATE_NAME :: sendEmailToAdminOnClientCourseEnrollment
+2024-10-22 14:34:53.379 c.cleducate.service.EmailServiceImpl.lambda$sendEmail$0 - MAIL SENT SUCCESSFULLY TO EMAIL_ID :: snehaiyer01@yopmail.com , EMAIL_SUBJECT :: Welcome! You have been enrolled in a new course., TEMPLATE_NAME :: sendEmailOnClientCourseEnrollment

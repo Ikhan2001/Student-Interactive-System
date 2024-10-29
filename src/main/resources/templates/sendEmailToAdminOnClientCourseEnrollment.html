@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Course Enrollment Notification</title>
+    <style>
+        /* Basic reset for better consistency across email clients */
+        body, table, td, a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header styling */
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo h1 {
+            font-size: 40px;
+            color: #A435F0; /* Purple corporate color */
+            margin: 0;
+            letter-spacing: 2px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .greeting {
+            text-align: center;
+            font-size: 22px;
+            color: #A435F0; /* Purple for greeting */
+            margin: 0;
+            margin-bottom: 20px;
+        }
+
+        /* Body text */
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #000000; /* Rich black for text */
+            margin-bottom: 15px;
+        }
+
+        /* Details section */
+        .details {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 20px;
+        }
+        .details p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #333333;
+        }
+        .details p strong {
+            color: #A435F0; /* Purple for labels */
+        }
+
+        /* Highlight important information */
+        .highlight {
+            background-color: #A435F0;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* Footer styling */
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #777;
+            margin-top: 30px;
+        }
+
+        /* Button styling */
+        .button {
+            display: inline-block;
+            background-color: #A435F0; /* Purple for button */
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .button:hover {
+            background-color: #8A2BE2; /* Slightly darker purple on hover */
+        }
+
+        .text-center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <td>
+            <div class="container">
+                <!-- Header -->
+                <div class="logo">
+                    <h1>CL-Educate LMS</h1>
+                </div>
+
+                <!-- Greeting -->
+                <div class="greeting">
+                    <p>New Enrollment Notification</p>
+                </div>
+
+                <!-- Highlight Section -->
+                <div class="highlight">
+                    <p>A new user has been successfully enrolled in a course!</p>
+                </div>
+
+                <!-- Enrollment Details -->
+                <h2 style="color: #A435F0; text-align: center;">Enrollment Details</h2>
+                <div class="details">
+                    <p><strong>User Name:</strong> <span th:text="${userName}"></span></p>
+                    <p><strong>Email:</strong> <span th:text="${userEmail}"></span></p>
+                    <p><strong>Course Title:</strong> <span th:text="${courseTitle}"></span></p>
+                    <p><strong>Enrollment Date:</strong> <span th:text="${enrollmentDate}"></span></p>
+                </div>
+
+                <!-- Call to Action Button -->
+                <div class="text-center">
+                    <a href="#" class="button">View User Profile</a>
+                </div>
+
+                <!-- Footer -->
+                <div class="footer">
+                    &copy; 2024 CL-Educate. All rights reserved.
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

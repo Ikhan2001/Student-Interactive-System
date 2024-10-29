@@ -1,0 +1,3 @@
+2024-10-14 00:18:37.046 o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14 00:18:37.053 com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2024-10-14 00:18:37.064 com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.

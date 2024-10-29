@@ -1,0 +1,79 @@
+2024-10-15 12:03:57.388 o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-15 12:03:57.392 com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2024-10-15 12:03:57.398 com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+2024-10-15 12:08:36.586 o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 6.2.5.Final
+2024-10-15 12:08:36.604 com.cleducate.ClEducateApplication.logStarting - Starting ClEducateApplication using Java 1.8.0_411 on INTKHAB-KHAN with PID 44148 (D:\I K\SprinBootPractice\studentInteractiveSystem\target\classes started by AMY4632V in D:\I K\SprinBootPractice\studentInteractiveSystem)
+2024-10-15 12:08:36.606 com.cleducate.ClEducateApplication.logStartupProfileInfo - The following 1 profile is active: "local"
+2024-10-15 12:08:37.458 o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-15 12:08:37.534 o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 64 ms. Found 7 JPA repository interfaces.
+2024-10-15 12:08:38.278 o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2024-10-15 12:08:38.286 o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8081"]
+2024-10-15 12:08:38.286 o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2024-10-15 12:08:38.287 o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2024-10-15 12:08:38.419 o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2024-10-15 12:08:38.420 o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1765 ms
+2024-10-15 12:08:38.570 o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-15 12:08:38.621 org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-10-15 12:08:38.796 o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-15 12:08:38.891 com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+2024-10-15 12:08:39.244 com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2024-10-15 12:08:39.274 org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2024-10-15 12:08:40.444 o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-15 12:08:40.453 o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-15 12:08:42.124 o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@64f33dee, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61c58320, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a5fab78, org.springframework.web.filter.CorsFilter@10e4ee33, org.springframework.security.web.authentication.logout.LogoutFilter@433b1597, com.cleducate.security.JwtTokenFilter@39e7e040, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cebf82f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10dbf660, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e90cec8, org.springframework.security.web.session.SessionManagementFilter@399c408c, org.springframework.security.web.access.ExceptionTranslationFilter@633a11eb, org.springframework.security.web.access.intercept.AuthorizationFilter@6706da3d]
+2024-10-15 12:08:42.129 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/swagger-resources/**']
+2024-10-15 12:08:42.130 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/swagger-ui/**']
+2024-10-15 12:08:42.130 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/v3/api-docs/**']
+2024-10-15 12:08:42.130 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/configuration/**']
+2024-10-15 12:08:42.130 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/v3/api-docs/swagger-config']
+2024-10-15 12:08:42.130 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/webjars/**']
+2024-10-15 12:08:42.130 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/public']
+2024-10-15 12:08:42.131 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/h2-console/**/**']
+2024-10-15 12:08:42.410 o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8081"]
+2024-10-15 12:08:42.436 o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2024-10-15 12:08:42.444 com.cleducate.ClEducateApplication.logStarted - Started ClEducateApplication in 6.367 seconds (JVM running for 6.819)
+2024-10-15 12:08:51.642 o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-15 12:08:51.642 o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2024-10-15 12:08:51.643 o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+2024-10-15 12:08:52.281 o.s.api.AbstractOpenApiResource.getOpenApi - Init duration for springdoc-openapi is: 238 ms
+2024-10-15 12:10:49.712 o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-15 12:10:49.716 com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2024-10-15 12:10:49.725 com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+2024-10-15 12:11:46.883 o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 6.2.5.Final
+2024-10-15 12:11:46.893 com.cleducate.ClEducateApplication.logStarting - Starting ClEducateApplication using Java 1.8.0_411 on INTKHAB-KHAN with PID 29552 (D:\I K\SprinBootPractice\studentInteractiveSystem\target\classes started by AMY4632V in D:\I K\SprinBootPractice\studentInteractiveSystem)
+2024-10-15 12:11:46.894 com.cleducate.ClEducateApplication.logStartupProfileInfo - The following 1 profile is active: "local"
+2024-10-15 12:11:48.030 o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-15 12:11:48.134 o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 93 ms. Found 7 JPA repository interfaces.
+2024-10-15 12:11:49.160 o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2024-10-15 12:11:49.168 o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8081"]
+2024-10-15 12:11:49.169 o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2024-10-15 12:11:49.169 o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2024-10-15 12:11:49.358 o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2024-10-15 12:11:49.359 o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2407 ms
+2024-10-15 12:11:49.564 o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-15 12:11:49.621 org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-10-15 12:11:49.833 o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-15 12:11:49.928 com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+2024-10-15 12:11:50.382 com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2024-10-15 12:11:50.441 org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2024-10-15 12:11:51.902 o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-15 12:11:51.917 o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-15 12:11:53.882 o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3e71a1f8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d4a34ff, org.springframework.security.web.context.SecurityContextPersistenceFilter@18887028, org.springframework.web.filter.CorsFilter@7cbede2b, org.springframework.security.web.authentication.logout.LogoutFilter@1fba3fd6, com.cleducate.security.JwtTokenFilter@47ffdbba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c0a3826, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@301d84f6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ef04613, org.springframework.security.web.session.SessionManagementFilter@505a8582, org.springframework.security.web.access.ExceptionTranslationFilter@4a5fab78, org.springframework.security.web.access.intercept.AuthorizationFilter@6d5508a5]
+2024-10-15 12:11:53.885 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/swagger-resources/**']
+2024-10-15 12:11:53.886 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/swagger-ui/**']
+2024-10-15 12:11:53.886 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/v3/api-docs/**']
+2024-10-15 12:11:53.886 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/configuration/**']
+2024-10-15 12:11:53.887 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/v3/api-docs/swagger-config']
+2024-10-15 12:11:53.887 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/webjars/**']
+2024-10-15 12:11:53.887 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/public']
+2024-10-15 12:11:53.887 o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/h2-console/**/**']
+2024-10-15 12:11:54.221 o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8081"]
+2024-10-15 12:11:54.248 o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2024-10-15 12:11:54.259 com.cleducate.ClEducateApplication.logStarted - Started ClEducateApplication in 7.959 seconds (JVM running for 8.486)
+2024-10-15 12:11:59.559 o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-15 12:11:59.559 o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2024-10-15 12:11:59.560 o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+2024-10-15 12:12:00.278 o.s.api.AbstractOpenApiResource.getOpenApi - Init duration for springdoc-openapi is: 311 ms
+2024-10-15 12:12:56.556 o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-15 12:12:56.560 com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2024-10-15 12:12:56.571 com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.

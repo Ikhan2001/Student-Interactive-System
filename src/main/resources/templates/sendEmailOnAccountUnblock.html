@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Unblocked Notification</title>
+    <style>
+        /* Basic reset */
+        body, table, td, a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        /* Container styling */
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* Logo Styling */
+        .logo {
+            margin-bottom: 30px;
+        }
+        .logo h1 {
+            font-size: 40px;
+            color: #A435F0;
+            margin: 0;
+            letter-spacing: 2px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Greeting */
+        .greeting {
+            font-size: 22px;
+            color: #A435F0;
+            margin-bottom: 20px;
+        }
+
+        /* Main message */
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #000000;
+            margin-bottom: 15px;
+        }
+
+        /* Confirmation message */
+        .confirmation {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .confirmation span {
+            margin-right: 10px;
+            font-size: 18px;
+        }
+
+        /* Button styling */
+        .button {
+            display: inline-block;
+            background-color: #A435F0;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            text-align: center;
+        }
+        .button:hover {
+            background-color: #8A2BE2;
+        }
+
+        /* Link styling */
+        .reset-link {
+            color: #A435F0;
+            word-break: break-all;
+            margin-top: 15px;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        /* Footer styling */
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #999999;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <td>
+            <div class="container">
+                <!-- Logo -->
+                <div class="logo">
+                    <h1>CL-Educate LMS</h1>
+                </div>
+
+                <!-- Greeting -->
+                <div class="greeting">
+                    <p>Hello <span th:text="${userName}" style="color: #A435F0; font-weight: bold;"></span>,</p>
+                </div>
+
+                <!-- Main message -->
+                <p>We are pleased to inform you that your account for the CL-Educate LMS has been successfully <strong>unblocked</strong> by the administrator.</p>
+
+                <!-- Password reset section -->
+                <p>Before logging in, please reset your password by following the link below:</p>
+                <p class="reset-link" th:text="${resetLink}" style="margin-top: 15px;"></p>
+
+                <!-- Confirmation message -->
+                <div class="confirmation">
+                    <span>✔️</span>
+                    <p>Once you've reset your password, you can log in using your credentials.</p>
+                </div>
+
+                <!-- Login button -->
+                <a href="test" class="button">Log in to Your Account</a>
+
+                <!-- Additional instructions -->
+                <p>If you experience any issues accessing your account, please feel free to reach out to our support team for assistance.</p>
+
+                <!-- Footer -->
+                <div class="footer">
+                    &copy; 2024 CL-Educate LMS. All rights reserved.
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

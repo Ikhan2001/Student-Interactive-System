@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to CL-Educate LMS!</title>
+    <style>
+        /* Basic reset for better consistency across email clients */
+        body, table, td, a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px; /* Maximum width for the container */
+            margin: auto; /* Centering the table */
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 30px; /* Increased padding */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo h1 {
+            font-size: 40px; /* Increased font size */
+            color: #A435F0; /* Corporate purple color */
+            margin: 0;
+            letter-spacing: 2px; /* Spacing between letters */
+            font-weight: bold; /* Bold font */
+            text-transform: uppercase; /* Uppercase letters */
+        }
+
+        .greeting {
+            text-align: center;
+            font-size: 20px; /* Font size for greeting */
+            color: #A435F0; /* Purple color for greeting */
+            margin: 0;
+            margin-bottom: 20px; /* Space below greeting */
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6; /* Increased line height for better readability */
+            margin-bottom: 15px;
+            color: #000000; /* Rich black for better contrast */
+        }
+
+        h2 {
+            font-size: 20px; /* Increased font size for subheadings */
+            color: #A435F0; /* Corporate purple color for headings */
+            margin-top: 20px; /* Margin for spacing */
+        }
+
+        .details {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 20px; /* Margin below the details section */
+        }
+
+        .details p {
+            margin: 5px 0; /* Reduced margin for individual detail lines */
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #777;
+            margin-top: 20px;
+        }
+
+        /* Button style */
+        .button {
+            display: inline-block;
+            background-color: #A435F0; /* Purple color for button */
+            color: white; /* Button text color */
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none; /* Remove underline */
+            font-weight: bold; /* Bold button text */
+            margin-top: 15px;
+            text-align: center; /* Centering the button */
+        }
+
+        .button:hover {
+            background-color: #8A2BE2; /* Darker purple on hover */
+        }
+
+        .warning {
+            background-color: #FFE1E1; /* Light red background for warning */
+            color: #D9534F; /* Red text */
+            border: 1px solid #D9534F; /* Red border */
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .warning strong {
+            font-weight: bold;
+        }
+
+        .signature {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 10px;
+            font-size: 12px;
+            color: #777;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+<table>
+    <tr>
+        <td>
+            <div class="container">
+                <div class="logo">
+                    <h1>CL-Educate LMS</h1>
+                </div>
+                <div class="greeting">
+                    <p>
+                        Hello! 👋<br>
+                        Congratulations! 🎉 You are now a member of CL-Educate LMS, your personalized platform for learning and growth! 🌱 Your account has been successfully created, and we are excited to have you on board.
+                    </p>
+                </div>
+                <h2>Your Account Details:</h2>
+                <div class="details">
+                    <p><strong>Email:</strong> <span th:text="${email}"></span></p>
+                    <p><strong>Password:</strong> <span th:text="${password}"></span></p>
+                </div>
+                <div class="warning">
+                    ⚠️ <strong>Important:</strong> This password is <strong>temporary</strong> and must be changed immediately upon your first login to ensure the security of your account. 🔒
+                </div>
+                <div class="text-center">
+                    <a href="#" class="button">Access Your Dashboard</a> <!-- Centered button -->
+                </div>
+                <div class="footer">
+                    &copy; 2024 CL-Educate. All rights reserved.
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

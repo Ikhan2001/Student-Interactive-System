@@ -1,0 +1,3 @@
+2024-10-17 01:57:41.842 o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - ERROR: syntax error at or near "FORM"
+  Position: 10
+2024-10-17 01:57:41.847 c.c.controller.CourseController.getAllModule - EXCEPTION OCCURRED :: 

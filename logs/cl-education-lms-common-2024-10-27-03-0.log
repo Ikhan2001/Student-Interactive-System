@@ -1,0 +1,1 @@
+2024-10-27 03:16:39.804 c.cleducate.service.EmailServiceImpl.lambda$sendEmail$0 - MAIL SENT SUCCESSFULLY TO EMAIL_ID :: priya.patel@yopmail.com , EMAIL_SUBJECT :: Your Account Has Been Unlocked – Access Restored, TEMPLATE_NAME :: sendEmailOnAccountUnblock
