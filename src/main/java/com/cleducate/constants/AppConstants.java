@@ -7,4 +7,5 @@ public class AppConstants {
     public static final String DEFAULT_SORT_BY = "id";
     //reset password
     private static final int MAX_ATTEMPTS = 3;
+    private static final int LIMIT_ATTEMPTS = 3;
 }
